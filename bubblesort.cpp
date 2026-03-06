@@ -19,11 +19,6 @@ int main() {
 	// 			arr[j+1] = arr[j] - arr[j+1];
 	// 			arr[j] = arr[j] - arr[j+1];
 	// 		}
-	// 		cout<<"iteration i : "<<endl;
-	// 		for(int i =0 ;i < n; i++){
-	// 			cout<<arr[i]<<" ";
-	// 		}
-	// 		cout<<endl;
 	// 	}
 		
 	// }
@@ -35,11 +30,7 @@ int main() {
 				arr[j] = arr[i] - arr[j];
 				arr[i] = arr[i] - arr[j];
 			}
-			cout<<"iteration i : "<<endl;
-			for(int i =0 ;i < n; i++){
-				cout<<arr[i]<<" ";
-			}
-			cout<<endl;
+			
 		}
 	}
 	for(int i =0 ;i < n; i++){

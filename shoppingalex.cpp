@@ -36,8 +36,6 @@ int main() {
 	}
 
 	int lcm = lcmOfarray(itemsprice, size);
-	
-
 	int noOfQueries;
 	cin>>noOfQueries;
 
